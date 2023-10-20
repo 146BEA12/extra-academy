@@ -9,6 +9,7 @@ full_name = first_name + " " + second_name
 
 age = 2023 - int(birth_year)
 
+
 print("Ваши данные: ")
 print("Ваше полное ФИО: ", full_name)
 print("Ваш возраст: ", age)
