@@ -1,0 +1,10 @@
+a = int(input())
+
+index = (a // 2) * 5
+index2 = ((a + 1) // 2 -1)*15
+b = 45 * a + index + index2 
+
+hour = b // 60 
+c = b - 60*hour
+
+print(str(hour+9) + " " + str(c))

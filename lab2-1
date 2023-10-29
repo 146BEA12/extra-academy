@@ -1,0 +1,7 @@
+a = int(input("Input first numbet: "))
+b = int(input("Input second number: "))
+c = a**2 + b**2
+
+sqrt = c ** (0.5)
+
+print("Hypotenuse is: " + str(sqrt))
