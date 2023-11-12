@@ -34,26 +34,26 @@ while statement:
     if choice.isdigit():
         if choice == "1":
             a = int(input("Enter first digit a: "))
-            b = int(input("Enter first digit b: "))
+            b = int(input("Enter second digit b: "))
             add(a, b)
 
         elif choice == "2":
             a = int(input("Enter first digit a: "))
-            b = int(input("Enter first digit b: "))
+            b = int(input("Enter second digit b: "))
             subtract(a, b)
 
         elif choice == "3":
             a = int(input("Enter first digit a: "))
-            b = int(input("Enter first digit b: "))
+            b = int(input("Enter second digit b: "))
             multiply(a, b)
 
         elif choice == "4":
             a = int(input("Enter first digit a: "))
-            b = int(input("Enter first digit b: "))
+            b = int(input("Enter second digit b: "))
             divide(a, b)
 
         elif choice == "5":
-            a = int(input("Enter first digit: "))
+            a = int(input("Enter digit: "))
             sqr_root(a)
         
         else:
