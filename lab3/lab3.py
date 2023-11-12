@@ -60,4 +60,5 @@ while statement:
             statement = False
     
     else:
-        print("You enter a string, enter a integer to continue using the calculator.") 
+        print(" ")
+        print("You entered a string, enter a integer to continue using the calculator.") 
