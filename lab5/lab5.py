@@ -59,7 +59,6 @@ class SportCar(Car):
         return super().__str__() + f"\nМаксимальная скорость: {self.max_speed} км/ч"
 
 
-# Пример использования классов
 driver1 = Person("Иван Иванов", 5)
 engine1 = Engine(200, "Производитель Япония")
 car1 = Car("Тойота Камри", "Седан", 1500, driver1, engine1)
